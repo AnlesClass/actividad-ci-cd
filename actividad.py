@@ -8,6 +8,7 @@ def calcular_area(base, altura):
 
     return base * altura
 
+## Clasifica un área basado en su tamaño 
 def clasificar_tamanio_area(area):
     if area < 100:
         return "AREA_PEQUENIA"
@@ -16,6 +17,7 @@ def clasificar_tamanio_area(area):
     elif area > 200:
         return "AREA_GRANDE"
 
+## Función principal (separa el return)
 def main():
     base = float(input("Ingrese la base: "))
     altura = float(input("Ingrese la altura: "))
@@ -31,5 +33,6 @@ def main():
     print(f"Área Calculada: {area:.2f}")
     print(f"Clasificación de área: {area_clasificacion}")
 
+## Verdadera ejecución principal
 if __name__ == "__main__":
     main()
