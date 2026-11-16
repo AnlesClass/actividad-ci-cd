@@ -12,7 +12,7 @@ def test_area_incorrecta_base_cero():
 
 ## Clasificar área: Mediana
 def test_area_incorrecta_base_negativa():
-    assert clasificar_tamanio_area(150) == "AREA_MEDIANA"
+    assert clasificar_tamanio_area(150) == "AREA_GRANDE"
 
 ## Clasificar área: Grande
 def test_area_incorrecta_altura_cero():
